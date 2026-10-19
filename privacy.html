@@ -29,29 +29,29 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="meta">Effective date: 2026-10-05 · Trippy iOS app</p>
+<p class="meta">Effective date: 2026-10-19 · Trippy 2.0 for iOS</p>
 
-<p>This policy describes what data Trippy handles. The short version: <strong>Trippy does not collect or share any personal data.</strong> Everything you enter stays on your device, and in its backups if you make them. If you turn on iCloud Sync, it is also kept, encrypted, in your own private iCloud database.</p>
+<p>This policy describes what data Trippy handles. The short version: <strong>Trippy does not collect or share any personal data.</strong> Everything you enter stays on your device, in your device backups if you make them, and in any export you save. If you turn on iCloud Sync, it is also kept, encrypted, in your own private iCloud database.</p>
 
 <h2>1. What we collect</h2>
-<p><strong>Nothing.</strong> Trippy has no servers of its own, no Trippy accounts, no analytics, no advertising and no third-party SDKs that send data anywhere. We do not see, store, or have any way to access your journal entries, mood data, ingestion log, calendar history, or notes, with iCloud Sync on or off.</p>
+<p><strong>Nothing.</strong> Trippy has no servers of its own, no Trippy accounts, no analytics, no advertising and no third-party SDKs that send data anywhere. We do not see, store, or have any way to access your journal entries, mood data, ingestion log, calendar history, or notes, with iCloud Sync on or off. The substance reference data is built into the app; Trippy does not download it or send your searches anywhere.</p>
 
 <h2>2. What stays on your device</h2>
 <p>The app stores the following locally, in iOS&rsquo;s standard sandboxed Core Data storage on your phone:</p>
 <ul>
   <li>Experiences you create (timing, substance, dose, notes).</li>
-  <li>Mood entries.</li>
-  <li>Custom substances, units, and consumers you add.</li>
-  <li>Settings (e.g. whether Private View is on, onboarding completion flag).</li>
-  <li>Copies kept so you can undo a big change: the journal an import replaced, the journal from before the 2.0 update (deleted when iCloud Sync starts), the journal from before you turned on iCloud Sync, and the journal that Replace This iPhone with iCloud removed. Delete Everything deletes them.</li>
+  <li>Mood entries and mood tags.</li>
+  <li>Custom substances, units, colors, and friends you add.</li>
+  <li>Settings (e.g. whether Private View and the app lock are on, Haptics, onboarding completion flag).</li>
+  <li>Temporary copies kept only while a big change can still fail: the journal from before the 2.0 update (deleted once the update finishes or an iCloud Sync choice applies) and the journal that Replace This iPhone with iCloud removed (deleted once the replacement loads). Delete Everything deletes them.</li>
 </ul>
-<p>This data is deleted from your device when you delete the app. Like any app&rsquo;s data, it is part of your device backups (iCloud Backup or a computer) if you make them. If you create a manual JSON backup via the in-app export, that file goes wherever you choose to save it. Trippy itself does not upload backups anywhere.</p>
+<p>This data is deleted from your device when you delete the app. Like any app&rsquo;s data, it is part of your device backups (iCloud Backup or a computer) if you make them. If you create a manual JSON backup via the in-app export, that file goes wherever you choose to save it. Before an import or Replace This iPhone with iCloud replaces your journal, Trippy has you save such an export of it; Trippy keeps no copy of a journal an import replaced. Trippy itself does not upload backups anywhere.</p>
 
 <h2>3. iCloud Sync (optional)</h2>
 <p>iCloud Sync is off by default. When you turn it on in Settings, your journal (experiences, doses, notes, ratings, locations, friends, custom substances, units, colors and classifications), mood entries and tags, and four settings (24-Hour Time, the Mood Tracker switch, the Statistics Prescribed/Recreational filter and the Sober Streak selection) sync through your private iCloud database to your devices signed in to the same Apple Account. Every data field is stored with CloudKit field encryption; Apple can still see record metadata such as record types, creation and modification dates, and which records link to which. The app lock, Private View, every other setting and the copies above stay on each device. Turning sync off stops it at once and keeps your iCloud copy until you delete it in your iCloud storage settings; Delete Everything while sync is on also deletes it. Signing out of iCloud while sync is on removes the synced data from the device. We cannot read your private iCloud database.</p>
 
 <h2>4. Permissions</h2>
-<p>Trippy does not request access to your location, camera, microphone, photos, contacts, calendar, Health data, motion data, or other personal data. Face ID is used only for the optional app lock and to confirm it&rsquo;s you before Private View turns off; iOS tells Trippy only whether you were recognized.</p>
+<p>Trippy does not request access to your location, camera, microphone, photos, contacts, calendar, Health data, motion data, or other personal data. Face ID, Touch ID or your device passcode is used only for the optional app lock and to confirm it&rsquo;s you before Private View turns off; iOS tells Trippy only whether you were recognized.</p>
 
 <h2>5. Tracking</h2>
 <p>Trippy does not track you across apps or websites. The <code>NSPrivacyTracking</code> value in the privacy manifest is <code>false</code>. The app does not use the IDFA or any other tracking identifier.</p>
@@ -60,7 +60,7 @@
 <p>The app may surface reference links to publicly available harm-reduction resources (for example PsychonautWiki, TripSit). Tapping those opens them in your browser. Trippy does not share any of your data with those sites; their privacy practices are their own.</p>
 
 <h2>7. Children</h2>
-<p>Trippy is rated 18+ and is intended for adults. It is not directed to children and we do not knowingly collect information about minors. On iOS 26 and later, setup asks iOS for your age range through Apple&rsquo;s Declared Age Range; Trippy uses the answer only on your device to confirm you are 18 or older and does not store or send it.</p>
+<p>Trippy is rated 18+ and is intended for adults. It is not directed to children and we do not knowingly collect information about minors. During setup, Trippy asks iOS for your age range through Apple&rsquo;s Declared Age Range; Trippy uses the answer only on your device to confirm you are 18 or older and does not store or send it.</p>
 
 <h2>8. Changes</h2>
 <p>If this policy changes, the updated version will be posted at this URL with a new effective date.</p>
